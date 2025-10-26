@@ -8,7 +8,7 @@ export default function ProfilePage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mb-6">
-        <div className="h-48 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 relative">
+        <div className="h-48 bg-gradient-to-r from-blue-600 to-cyan-500 relative">
           <button className="absolute top-4 right-4 px-4 py-2 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center space-x-2">
             <Edit2 className="w-4 h-4" />
             <span>Edit Profile</span>
@@ -16,12 +16,12 @@ export default function ProfilePage() {
         </div>
 
         <div className="px-8 pb-8">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between -mt-16 mb-6">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between -mt-20 mb-6">
             <div className="flex flex-col md:flex-row md:items-end md:space-x-6">
               <img
                 src={currentUser.avatar}
                 alt={currentUser.name}
-                className="w-32 h-32 rounded-full border-4 border-white object-cover shadow-lg"
+                className="w-32 h-32 rounded-full border-4 border-white object-cover shadow-lg relative z-10"
               />
               <div className="mt-4 md:mt-0 md:mb-2">
                 <h1 className="text-3xl font-bold text-gray-900">{currentUser.name}</h1>
@@ -86,7 +86,7 @@ export default function ProfilePage() {
         <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
           <div className="flex items-center justify-between mb-2">
             <h3 className="text-2xl font-bold text-gray-900">{joinedClubs.length}</h3>
-            <Award className="w-8 h-8 text-purple-600" />
+            <Award className="w-8 h-8 text-cyan-600" />
           </div>
           <p className="text-gray-600">Clubs Joined</p>
         </div>

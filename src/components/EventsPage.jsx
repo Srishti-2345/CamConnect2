@@ -12,9 +12,9 @@ const [selectedCategory, setSelectedCategory] = useState('all');
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <div className="bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl p-8 text-white shadow-lg mb-6">
+      <div className="bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl p-8 text-white shadow-lg mb-6">
         <h1 className="text-3xl font-bold mb-2">Campus Events</h1>
-        <p className="text-green-50 text-lg">
+        <p className="text-blue-50 text-lg">
           Never miss out on exciting events happening across universities
         </p>
       </div>
@@ -27,7 +27,7 @@ const [selectedCategory, setSelectedCategory] = useState('all');
               <input
                 type="text"
                 placeholder="Search events by title, organizer, or location..."
-                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
           </div>
@@ -44,7 +44,7 @@ const [selectedCategory, setSelectedCategory] = useState('all');
               onClick={() => setSelectedCategory(category)}
               className={`px-4 py-2 rounded-lg font-medium whitespace-nowrap transition-colors ${
                 selectedCategory === category
-                  ? 'bg-green-600 text-white'
+                  ? 'bg-blue-600 text-white'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
@@ -109,7 +109,7 @@ function EventCard({ event }) {
               className={`px-6 py-2 rounded-lg font-semibold transition-colors ${
                 isAttending
                   ? 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  : 'bg-green-600 text-white hover:bg-green-700'
+                  : 'bg-blue-600 text-white hover:bg-blue-700'
               }`}
             >
               {isAttending ? 'Attending' : 'Attend'}

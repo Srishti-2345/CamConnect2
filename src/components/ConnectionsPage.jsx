@@ -7,9 +7,9 @@ const [activeTab, setActiveTab] = useState('discover');
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white shadow-lg mb-6">
+      <div className="bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl p-8 text-white shadow-lg mb-6">
         <h1 className="text-3xl font-bold mb-2">Build Your Network</h1>
-        <p className="text-purple-50 text-lg">
+        <p className="text-blue-50 text-lg">
           Connect with students across universities and expand your professional circle
         </p>
       </div>
@@ -20,7 +20,7 @@ const [activeTab, setActiveTab] = useState('discover');
             onClick={() => setActiveTab('discover')}
             className={`flex-1 px-6 py-4 font-semibold transition-colors ${
               activeTab === 'discover'
-                ? 'text-purple-600 border-b-2 border-purple-600'
+                ? 'text-blue-600 border-b-2 border-blue-600'
                 : 'text-gray-600 hover:text-gray-900'
             }`}
           >
@@ -30,7 +30,7 @@ const [activeTab, setActiveTab] = useState('discover');
             onClick={() => setActiveTab('requests')}
             className={`flex-1 px-6 py-4 font-semibold transition-colors relative ${
               activeTab === 'requests'
-                ? 'text-purple-600 border-b-2 border-purple-600'
+                ? 'text-blue-600 border-b-2 border-blue-600'
                 : 'text-gray-600 hover:text-gray-900'
             }`}
           >
@@ -41,7 +41,7 @@ const [activeTab, setActiveTab] = useState('discover');
             onClick={() => setActiveTab('connections')}
             className={`flex-1 px-6 py-4 font-semibold transition-colors ${
               activeTab === 'connections'
-                ? 'text-purple-600 border-b-2 border-purple-600'
+                ? 'text-blue-600 border-b-2 border-blue-600'
                 : 'text-gray-600 hover:text-gray-900'
             }`}
           >
@@ -58,7 +58,7 @@ const [activeTab, setActiveTab] = useState('discover');
               <input
                 type="text"
                 placeholder="Search by name, university, or major..."
-                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
           </div>
@@ -109,7 +109,7 @@ function UserCard({
 
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-all duration-300">
-      <div className="h-24 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+      <div className="h-24 bg-gradient-to-r from-blue-600 to-cyan-500"></div>
       <div className="px-6 pb-6">
         <div className="flex justify-center -mt-12 mb-4">
           <img
@@ -128,7 +128,7 @@ function UserCard({
           {user.interests.slice(0, 3).map((interest) => (
             <span
               key={interest}
-              className="px-3 py-1 bg-purple-50 text-purple-600 text-xs font-medium rounded-full"
+              className="px-3 py-1 bg-blue-50 text-blue-600 text-xs font-medium rounded-full"
             >
               {interest}
             </span>
@@ -140,14 +140,14 @@ function UserCard({
             className={`w-full py-2 rounded-lg font-semibold transition-colors ${
               isConnected
                 ? 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                : 'bg-purple-600 text-white hover:bg-purple-700'
+                : 'bg-blue-600 text-white hover:bg-blue-700'
             }`}
           >
             {isConnected ? 'Request Sent' : 'Connect'}
           </button>
         )}
         {showMessageButton && (
-          <button className="w-full py-2 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition-colors flex items-center justify-center space-x-2">
+          <button className="w-full py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2">
             <MessageCircle className="w-4 h-4" />
             <span>Message</span>
           </button>
