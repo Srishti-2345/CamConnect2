@@ -8,7 +8,7 @@ export default function ProfilePage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mb-6">
-        <div className="h-48 bg-gradient-to-r from-blue-600 to-cyan-500 relative">
+        <div className="h-32 bg-gradient-to-r from-blue-600 to-cyan-500 relative">
           <button className="absolute top-4 right-4 px-4 py-2 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center space-x-2">
             <Edit2 className="w-4 h-4" />
             <span>Edit Profile</span>
@@ -16,14 +16,14 @@ export default function ProfilePage() {
         </div>
 
         <div className="px-8 pb-8">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between -mt-20 mb-6">
-            <div className="flex flex-col md:flex-row md:items-end md:space-x-6">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6 pt-8">
+            <div className="flex flex-col md:flex-row md:items-center md:space-x-6">
               <img
                 src={currentUser.avatar}
                 alt={currentUser.name}
-                className="w-32 h-32 rounded-full border-4 border-white object-cover shadow-lg relative z-10"
+                className="w-32 h-32 rounded-full border-4 border-white object-cover shadow-lg"
               />
-              <div className="mt-4 md:mt-0 md:mb-2">
+              <div className="mt-4 md:mt-0">
                 <h1 className="text-3xl font-bold text-gray-900">{currentUser.name}</h1>
                 <p className="text-lg text-gray-600 mt-1">
                   {currentUser.major} • {currentUser.year}
@@ -31,7 +31,7 @@ export default function ProfilePage() {
               </div>
             </div>
 
-            <div className="flex space-x-3 mt-4 md:mt-0 md:mb-2">
+            <div className="flex space-x-3 mt-4 md:mt-0">
               <button className="px-6 py-2 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">
                 Share Profile
               </button>
