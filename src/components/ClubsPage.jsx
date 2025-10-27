@@ -11,7 +11,7 @@ const [selectedCategory, setSelectedCategory] = useState('all');
     : mockClubs.filter(club => club.category === selectedCategory);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="bg-black max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div className="bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl p-8 text-white shadow-lg mb-6">
         <h1 className="text-3xl font-bold mb-2">Discover Clubs & Societies</h1>
         <p className="text-blue-50 text-lg">

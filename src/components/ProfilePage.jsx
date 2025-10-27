@@ -6,7 +6,7 @@ export default function ProfilePage() {
   const attendingEvents = mockEvents.filter((event) => event.isAttending);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="bg-black max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden mb-6">
         <div className="h-32 bg-gradient-to-r from-blue-600 to-cyan-500 relative">
           <button className="absolute top-4 right-4 px-4 py-2 bg-white text-gray-900 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center space-x-2">

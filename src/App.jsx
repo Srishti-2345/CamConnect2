@@ -6,6 +6,7 @@ import EventsPage from './components/EventsPage';
 import ConnectionsPage from './components/ConnectionsPage';
 import MessagesPage from './components/MessagesPage';
 import ProfilePage from './components/ProfilePage';
+import Footer from './components/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -30,9 +31,10 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-black">
       <Navigation currentPage={currentPage} onNavigate={setCurrentPage} />
       {renderPage()}
+      <Footer></Footer>
     </div>
   );
 }
