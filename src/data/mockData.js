@@ -25,7 +25,7 @@ export const mockUsers = [
   },
   {
     id: '3',
-    name: 'Michael Rodriguez',
+    name: 'Michael Jordan',
     email: 'michael.r@university.edu',
     university: 'State University',
     major: 'Business Administration',
