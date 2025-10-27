@@ -14,7 +14,7 @@ export const currentUser = {
 export const mockUsers = [
   {
     id: '2',
-    name: 'Sarah Chen',
+    name: 'Sarah',
     email: 'sarah.chen@university.edu',
     university: 'Tech University',
     major: 'Data Science',
