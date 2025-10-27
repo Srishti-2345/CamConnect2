@@ -36,7 +36,7 @@ export const mockUsers = [
   },
   {
     id: '4',
-    name: 'Emily Williams',
+    name: 'John Williams',
     email: 'emily.w@university.edu',
     university: 'Tech University',
     major: 'Psychology',
