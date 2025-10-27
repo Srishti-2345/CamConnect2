@@ -113,7 +113,7 @@ export const mockClubs = [
 export const mockEvents = [
   {
     id: '1',
-    title: 'Tech Innovation Summit 2024',
+    title: 'Open Source Chandigarh',
     description: 'Join industry leaders and innovators for a day of inspiring talks and networking.',
     date: '2024-11-15',
     time: '09:00 AM',
@@ -127,7 +127,7 @@ export const mockEvents = [
   },
   {
     id: '2',
-    title: 'Cultural Night: Celebrating Diversity',
+    title: 'VibinZ',
     description: 'Experience cultures from around the world through food, music, and performances.',
     date: '2024-11-08',
     time: '06:00 PM',
@@ -141,7 +141,7 @@ export const mockEvents = [
   },
   {
     id: '3',
-    title: 'Startup Pitch Competition',
+    title: 'CEED',
     description: 'Watch student entrepreneurs pitch their innovative ideas to real investors.',
     date: '2024-11-20',
     time: '02:00 PM',
@@ -155,7 +155,7 @@ export const mockEvents = [
   },
   {
     id: '4',
-    title: 'Photography Exhibition: Campus Life',
+    title: 'C2S2 Reflection',
     description: 'View stunning photographs capturing the essence of student life.',
     date: '2024-11-12',
     time: '04:00 PM',
@@ -169,7 +169,7 @@ export const mockEvents = [
   },
   {
     id: '5',
-    title: 'Mental Health Awareness Workshop',
+    title: 'Chitkara Happiness Centre',
     description: 'Learn about stress management and mental wellness strategies for students.',
     date: '2024-11-18',
     time: '01:00 PM',
@@ -183,7 +183,7 @@ export const mockEvents = [
   },
   {
     id: '6',
-    title: 'Hackathon 2024: Code for Change',
+    title: 'Design Thinking Society',
     description: '48-hour coding marathon to build solutions for social impact.',
     date: '2024-11-25',
     time: '10:00 AM',
