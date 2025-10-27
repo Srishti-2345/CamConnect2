@@ -1,7 +1,7 @@
 
 export const currentUser = {
   id: '1',
-  name: 'Alex Johnson',
+  name: 'Mitchell Starc',
   email: 'alex.johnson@university.edu',
   university: 'Tech University',
   major: 'Computer Science',
