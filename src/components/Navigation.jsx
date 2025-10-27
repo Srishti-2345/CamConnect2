@@ -2,7 +2,7 @@ import { Home, Users, Calendar, MessageCircle, Search, Bell, User } from 'lucide
 
 
 export default function Navigation({ currentPage, onNavigate }) {
-  const navItems = [
+  const navItems = [                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
     { id: 'home', icon: Home, label: 'Home' },
     { id: 'clubs', icon: Users, label: 'Clubs' },
     { id: 'events', icon: Calendar, label: 'Events' },

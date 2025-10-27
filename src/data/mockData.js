@@ -1,7 +1,7 @@
 
 export const currentUser = {
   id: '1',
-  name: 'Alex Johnson',
+  name: 'Mitchell Starc',
   email: 'alex.johnson@university.edu',
   university: 'Tech University',
   major: 'Computer Science',
@@ -14,7 +14,7 @@ export const currentUser = {
 export const mockUsers = [
   {
     id: '2',
-    name: 'Sarah Chen',
+    name: 'Sarah',
     email: 'sarah.chen@university.edu',
     university: 'Tech University',
     major: 'Data Science',
@@ -25,7 +25,7 @@ export const mockUsers = [
   },
   {
     id: '3',
-    name: 'Michael Rodriguez',
+    name: 'Michael Jordan',
     email: 'michael.r@university.edu',
     university: 'State University',
     major: 'Business Administration',
@@ -36,7 +36,7 @@ export const mockUsers = [
   },
   {
     id: '4',
-    name: 'Emily Williams',
+    name: 'John Williams',
     email: 'emily.w@university.edu',
     university: 'Tech University',
     major: 'Psychology',
